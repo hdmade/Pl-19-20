@@ -18,7 +18,7 @@ body{
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
-	border: 1px solid #ffffff;
+	border: 1px solid #37003C;
 	box-sizing: border-box;
 }
 
@@ -77,7 +77,7 @@ body{
 	top: 0px;
 	width: 729px;
 	height: 90px;
-	background: url(images/meteors-large.png) no-repeat;
+	background: url(images/meteors.png) no-repeat;
 }
 
 #tagline1{
@@ -126,6 +126,9 @@ body{
 	height: 180px;
 	background: url(images/bg-endframe.png) no-repeat;
 }
+
+
+
 
 #divider{
 	position: absolute;

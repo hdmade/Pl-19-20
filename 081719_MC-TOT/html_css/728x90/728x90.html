@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>NHL | 728x90</title>
+    <title>PL | 728x90</title>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -24,7 +24,7 @@
 
         <div id="frame2bg"></div>
         <div id="meteors"></div>
-
+        <div id="meteors2"></div>
 
 <!-- Frame 3 -->        
         <div id="mask1">
@@ -36,7 +36,8 @@
         </div>
 <!-- Endframe -->
         <div id="bgendframe"></div>
-        <div id="divider"></div>
+<!--         <div id="bgendframe1"></div>
+ -->        <div id="divider"></div>
         <div id="playerid"></div>
         <div id="logoendframe"></div>
         
@@ -68,6 +69,7 @@
             $mask2 = $("#mask2"),
 
             $meteors = $("#meteors"),
+            $meteors2 = $("#meteors2"),
 
             $tagline1 = $("#tagline1"),
             $tagline2 = $("#tagline2"),
@@ -76,6 +78,7 @@
             $frame2bg = $("#frame2bg"),
             
             $bgendframe = $("#bgendframe"),
+            $bgendframe1 = $("#bgendframe1"),
             $divider = $("#divider"),
             $playerid = $("#playerid"),
             $logoendframe = $("#logoendframe"),
@@ -102,7 +105,9 @@
           .from(frame2bg, .5, {opacity:0}, "start+=3.5")
           .to(frame2bg, 8.5, {top:-90, ease: Power0.easeNone}, "start+=3.5")
 
-          .fromTo(meteors, .7, {top:-90, left:90}, {top:90, left:-180}, "start+=4.0")
+          .fromTo(meteors, .5, {top:-90, left:90}, {top:90, left:-180}, "start+=4.0")
+          .fromTo(meteors2, 1, {top:-90, left:90}, {top:90, left:-180}, "start+=4.0")
+
           .from(tagline1, .5, {left:728, ease: Power1.easeOut}, "start+=4.0")
 
           .to(tagline1, .5, {opacity:0, ease: Power1.easeOut}, "start+=6.5")
@@ -110,14 +115,16 @@
 
           // frame 3 - starts at 6 
           .from(tagline2, .5, {left:728, ease: Power1.easeOut}, "start+=7.0")
-          .fromTo(meteors, .7, {top:-90, left:90}, {top:90, left:-180}, "start+=7.0")
+          .fromTo(meteors, .5, {top:-90, left:90}, {top:90, left:-180}, "start+=7.0")
+          .fromTo(meteors2, 1, {top:-90, left:90}, {top:90, left:-180}, "start+=7.0")
+
 
           .to(tagline2, .5, {opacity:0, ease: Power1.easeOut}, "start+=9.5")
 
 
           // Endframe - Starts at 10
           .from(bgendframe, .5, {opacity:0}, "start+=9.5")
-          
+
 
           .from(divider, .5, {opacity:0}, "start+=10")
           .from(players, .5, {opacity:0}, "start+=9.5")
