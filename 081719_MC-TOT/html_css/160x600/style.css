@@ -12,9 +12,9 @@ body{
 
 #banner {
 	position: absolute;
-	width: 728px;
-	height: 90px;
-	background-color: #ff2882;
+	width: 160px;
+	height: 600px;
+	background-color: #ff6900;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
@@ -23,40 +23,41 @@ body{
 }
 
 
-
-#mask1{
+/*#mask1{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 520px;
-	height: 90px;
+	width: 285px;
+	height: 250px;
 	overflow: hidden;
 }
+
 
 #mask2{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 658px;
-	height: 90px;
+	width: 285px;
+	height: 250px;
 	overflow: hidden;
-}
+}*/
 
 #logolarge{
 	position: absolute;
-	left: 200px;
-	top: 7px;
-	width: 729px;
-	height: 90px;
+	left: 7px;
+	top: 241px;
+	width: 144px;
+	height: 119px;
 	background: url(images/logolarge.png) no-repeat;
 }
 
+
 #logoendframe{
 	position: absolute;
-	left: 18px;
-	top: 7px;
-	width: 91px;
-	height: 76px;
+	left: 7px;
+	top: 18px;
+	width: 144px;
+	height: 119px;
 	background: url(images/logoendframe.png) no-repeat;
 }
 
@@ -64,53 +65,47 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 729px;
-	height: 90px;
+	width: 300px;
+	height: 600px;
 	background: url(images/meteors-large.png) no-repeat;
 }
 
-#meteors2{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 729px;
-	height: 90px;
-	background: url(images/meteors.png) no-repeat;
-}
 
 #tagline1{
 	position: absolute;
-	left: 219px;
-	top: 18px;
-	width: 292px;
-	height: 55px;
+	left: 6px;
+	top: 246px;
+	width: 147px;
+	height: 107px;
 	background: url(images/tagline1.png) no-repeat;
 }
 
 #tagline2{
 	position: absolute;
-	left: 240px;
-	top: 13px;
-	width: 365px;
-	height: 65px;
+	left: 14px;
+	top: 235px;
+	width: 133px;
+	height: 137px;
 	background: url(images/tagline2.png) no-repeat;
 }
+
 
 #frame1bg{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 729px;
-	height: 180px;
+	width: 160px;
+	height: 900px;
 	background: url(images/frame1bg-large.png) no-repeat;
 }
+
 
 #frame2bg{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 729px;
-	height: 180px;
+	width: 160px;
+	height: 900px;
 	background: url(images/frame2bg-large.png) no-repeat;
 }
 
@@ -118,17 +113,18 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 728px;
-	height: 90px;
+	width: 160px;
+	height: 600px;
 	background: url(images/bg-endframe.png) no-repeat;
 }
 
+
 #divider{
 	position: absolute;
-	left: 299px;
-	top: 11px;
-	width: 1px;
-	height: 68px;
+	left: 12px;
+	top: 240px;
+	width: 134px;
+	height: 1px;
 	background: url(images/divider.png) no-repeat;	
 }
 
@@ -136,8 +132,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 728px;
-	height: 90px;
+	width: 160px;
+	height: 600px;
 	background: url(images/players.png) no-repeat;	
 }
 
@@ -146,43 +142,40 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 90px;
+	width: 160px;
+	height: 240px;
 	overflow: hidden;
+	/*background-color: red;*/
 }
 
 #match1{
 	position: absolute;
-	left: 129px;
-	top: 12px;
-	width: 150px;
-	height: 66px;
+	left: 5px;
+	top: 175px;
+	width: 149px;
+	height: 60px;
 	background: url(images/match1.png) no-repeat;	
 }
+
+
 
 /*mask r "left" is the distance from the divider line to the left of the screen*/
 #mask-r{
 	position: absolute;
-	left: 300px;
-	top: 0px;
-	width: 728px;
-	height: 90px;
+	left: 0px;
+	top: 240px;
+	width: 160px;
+	height: 600px;
 	overflow: hidden;
+	/*background-color: blue;*/
 }
 
 /*match 2 "left" is the distance from the divider line start of the text*/
 #match2{
 	position: absolute;
-	left: 18px;
-	top: 12px;
-	width: 149px;
-	height: 66px;
+	left: 5px;
+	top: 8px;
+	width: 248px;
+	height: 65px;
 	background: url(images/match2.png) no-repeat;	
 }
-
-
-
-
-
-
-

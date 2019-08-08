@@ -12,9 +12,9 @@ body{
 
 #banner {
 	position: absolute;
-	width: 728px;
-	height: 90px;
-	background-color: #ff2882;
+	width: 300px;
+	height: 250px;
+	background-color: #00ff87;
 	padding: 0px;
 	margin: 0px;
 	overflow: hidden;
@@ -23,40 +23,41 @@ body{
 }
 
 
-
 #mask1{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 520px;
-	height: 90px;
+	width: 285px;
+	height: 250px;
 	overflow: hidden;
 }
+
 
 #mask2{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 658px;
-	height: 90px;
+	width: 285px;
+	height: 250px;
 	overflow: hidden;
 }
 
 #logolarge{
 	position: absolute;
-	left: 200px;
-	top: 7px;
-	width: 729px;
-	height: 90px;
+	left: 36px;
+	top: 31px;
+	width: 228px;
+	height: 189px;
 	background: url(images/logolarge.png) no-repeat;
 }
 
+
 #logoendframe{
 	position: absolute;
-	left: 18px;
-	top: 7px;
-	width: 91px;
-	height: 76px;
+	left: 13px;
+	top: 13px;
+	width: 72px;
+	height: 60px;
 	background: url(images/logoendframe.png) no-repeat;
 }
 
@@ -64,53 +65,47 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 729px;
-	height: 90px;
+	width: 300px;
+	height: 250px;
 	background: url(images/meteors-large.png) no-repeat;
 }
 
-#meteors2{
-	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 729px;
-	height: 90px;
-	background: url(images/meteors.png) no-repeat;
-}
 
 #tagline1{
 	position: absolute;
-	left: 219px;
-	top: 18px;
-	width: 292px;
-	height: 55px;
+	left: 14px;
+	top: 99px;
+	width: 270px;
+	height: 51px;
 	background: url(images/tagline1.png) no-repeat;
 }
 
 #tagline2{
 	position: absolute;
-	left: 240px;
-	top: 13px;
-	width: 365px;
-	height: 65px;
+	left: 19px;
+	top: 90px;
+	width: 262px;
+	height: 72px;
 	background: url(images/tagline2.png) no-repeat;
 }
+
 
 #frame1bg{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 729px;
-	height: 180px;
+	width: 300px;
+	height: 500px;
 	background: url(images/frame1bg-large.png) no-repeat;
 }
+
 
 #frame2bg{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 729px;
-	height: 180px;
+	width: 300px;
+	height: 500px;
 	background: url(images/frame2bg-large.png) no-repeat;
 }
 
@@ -118,26 +113,27 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 728px;
-	height: 90px;
+	width: 300px;
+	height: 250px;
 	background: url(images/bg-endframe.png) no-repeat;
 }
 
+
 #divider{
 	position: absolute;
-	left: 299px;
-	top: 11px;
-	width: 1px;
-	height: 68px;
+	left: 10px;
+	top: 176px;
+	width: 280px;
+	height: 65px;
 	background: url(images/divider.png) no-repeat;	
 }
 
 #players{
 	position: absolute;
-	left: 0px;
+	left: 31px;
 	top: 0px;
-	width: 728px;
-	height: 90px;
+	width: 256px;
+	height: 250px;
 	background: url(images/players.png) no-repeat;	
 }
 
@@ -146,39 +142,45 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 90px;
+	width: 150px;
+	height: 250px;
 	overflow: hidden;
+	/*background-color: red;*/
 }
 
 #match1{
 	position: absolute;
-	left: 129px;
-	top: 12px;
+	left: 16px;
+	top: 183px;
 	width: 150px;
-	height: 66px;
+	height: 52px;
 	background: url(images/match1.png) no-repeat;	
 }
+
+
 
 /*mask r "left" is the distance from the divider line to the left of the screen*/
 #mask-r{
 	position: absolute;
-	left: 300px;
+	left: 150px;
 	top: 0px;
-	width: 728px;
-	height: 90px;
+	width: 300px;
+	height: 250px;
 	overflow: hidden;
+	/*background-color: blue;*/
 }
 
 /*match 2 "left" is the distance from the divider line start of the text*/
 #match2{
 	position: absolute;
-	left: 18px;
-	top: 12px;
-	width: 149px;
-	height: 66px;
+	left: 14px;
+	top: 183px;
+	width: 300px;
+	height: 250px;
 	background: url(images/match2.png) no-repeat;	
 }
+
+
 
 
 
