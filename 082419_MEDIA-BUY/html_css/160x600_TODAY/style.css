@@ -140,10 +140,10 @@ body{
 
 #mask-l{
 	position: absolute;
-	left: 5px;
-	top: 175px;
-	width: 150px;
-	height: 60px;
+	left: 19px;
+	top: 154px;
+	width: 121px;
+	height: 143px;
 	overflow: hidden;
 /*	background-color: red;
 */}
@@ -152,8 +152,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 150px;
-	height: 60px;
+	width: 121px;
+	height: 143px;
 	background: url(images/match1.png) no-repeat;	
 }
 
