@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 160px;
+	height: 600px;
+	background-color: #ff2882;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #37003C;
+	box-sizing: border-box;
+}
+
+/*covers tagline 1*/
+#mask1{
+	position: absolute;
+	left: 7px;
+	top: 255px;
+	width: 145px;
+	height: 47px;
+	overflow: hidden;
+}
+
+/*covers tagline 2*/
+/*#mask2{
+	position: absolute;
+	left: 19px;
+	top: 90px;
+	width: 262px;
+	height: 72px;
+	overflow: hidden;
+}*/
+
+#logolarge{
+	position: absolute;
+	left: 7px;
+	top: 241px;
+	width: 144px;
+	height: 119px;
+	background: url(images/logolarge.png) no-repeat;
+}
+
+
+#logoendframe{
+	position: absolute;
+	left: 17px;
+	top: 15px;
+	width: 126px;
+	height: 104px;
+	background: url(images/logoendframe.png) no-repeat;
+}
+
+#meteors{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 320px;
+	height: 370px;
+	background: url(images/meteors-large.png) no-repeat;
+}
+
+
+#tagline1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 145px;
+	height: 47px;
+	background: url(images/tagline1.png) no-repeat;
+}
+
+/*#tagline2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 262px;
+	height: 72px;
+	background: url(images/tagline2.png) no-repeat;
+}*/
+
+
+#frame1bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 900px;
+	background: url(images/frame1bg-large.jpg) no-repeat;
+}
+
+
+#frame2bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 900px;
+	background: url(images/frame2bg-large.jpg) no-repeat;
+}
+
+#bgendframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 160px;
+	height: 600px;
+	background: url(images/bg-endframe.png) no-repeat;
+}
+
+
+/*#divider{
+	position: absolute;
+	left: 10px;
+	top: 176px;
+	width: 280px;
+	height: 65px;
+	background: url(images/divider.png) no-repeat;	
+}*/
+
+/*#players{
+	position: absolute;
+	left: 31px;
+	top: 0px;
+	width: 256px;
+	height: 250px;
+	background: url(images/players.png) no-repeat;	
+}*/
+
+/*covers match 1*/
+#mask-l{
+	position: absolute;
+	left: 30px;
+	top: 135px;
+	width: 98px;
+	height: 219px;
+	overflow: hidden;
+/*	background-color: red;
+*/}
+
+#match1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 98px;
+	height: 219px;
+	background: url(images/match1.png) no-repeat;	
+}
+
+/*covers match 2*/
+/*#mask-r{
+	position: absolute;
+	left: 166px;
+	top: 183px;
+	width: 118px;
+	height: 52px;
+	overflow: hidden;*/
+/*	background-color: blue;
+*/}
+
+/*#match2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 118px;
+	height: 52px;
+	background: url(images/match2.png) no-repeat;	
+}*/
+
+
+
+
+
+
+
+
+
