@@ -19,11 +19,13 @@
 <!-- Frame 1 -->
         <div id="frame1bg"></div>
         
-        <div id="logolarge"></div>
 <!-- Frame 2 -->        
 
         <div id="frame2bg"></div>
         <div id="meteors"></div>
+
+        <div id="logolarge"></div>
+
 
 <!-- Frame 3 -->        
         <div id="mask1">
@@ -96,7 +98,7 @@
           
           // frame 2
           .add("frame2", "+=0.5")
-          .to($logolarge, 0.5, {opacity:0}, "frame2")
+          // .to($logolarge, 0.5, {opacity:0}, "frame2")
           .from($frame2bg, 0.5, {opacity:0}, "frame2")
           
           .from($tagline1, 0.5, {xPercent:100, ease: Power1.easeOut}, "frame2+=0.5")
