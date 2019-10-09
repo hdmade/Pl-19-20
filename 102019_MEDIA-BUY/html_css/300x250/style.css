@@ -54,10 +54,10 @@ body{
 
 #logoendframe{
 	position: absolute;
-	left: 212px;
-	top: 24px;
-	width: 72px;
-	height: 60px;
+	left: 98px;
+	top: 72px;
+	width: 105px;
+	height: 88px;
 	background: url(images/logoendframe.png) no-repeat;
 }
 
@@ -140,20 +140,20 @@ body{
 
 #mask-l{
 	position: absolute;
-	left: 0px;
-	top: 185px;
-	width: 281px;
-	height: 49px;
+	left: 22px;
+	top: 188px;
+	width: 255px;
+	height: 46px;
 	overflow: hidden;
 	/*background-color: red;*/
 }
 
 #match1{
 	position: absolute;
-	left: 19px;
+	left: 0px;
 	top: 0px;
-	width: 262px;
-	height: 49px;
+	width: 255px;
+	height: 46px;
 	background: url(images/match1.png) no-repeat;	
 }
 
