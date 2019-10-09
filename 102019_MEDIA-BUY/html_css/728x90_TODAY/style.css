@@ -54,10 +54,10 @@ body{
 
 #logoendframe{
 	position: absolute;
-	left: 100px;
-	top: 19px;
-	width: 184px;
-	height: 53px;
+	left: 24px;
+	top: 22px;
+	width: 163px;
+	height: 47px;
 	background: url(images/logoendframe.png) no-repeat;
 }
 
@@ -132,7 +132,7 @@ body{
 	position: absolute;
 	left: 31px;
 	top: 0px;
-	width: 256px;
+	width: 196px;
 	height: 250px;
 	background: url(images/players.png) no-repeat;	
 }
@@ -140,9 +140,9 @@ body{
 
 #mask-l{
 	position: absolute;
-	left: 313px;
-	top: 17px;
-	width: 314px;
+	left: 286px;
+	top: 24px;
+	width: 223px;
 	height: 55px;
 	overflow: hidden;
 	/*background-color: red;*/
@@ -152,7 +152,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 314px;
+	width: 223px;
 	height: 55px;
 	background: url(images/match1.png) no-repeat;	
 }
@@ -177,6 +177,15 @@ body{
 	background: url(images/match2.png) no-repeat;	
 }
 
+
+#network{
+	position: absolute;
+	left: 616px;
+	top: 22px;
+	width: 68px;
+	height: 48px;
+	background: url(images/nbcsn.png) no-repeat;	
+}
 
 
 
