@@ -54,10 +54,10 @@ body{
 
 #logoendframe{
 	position: absolute;
-	left: 31px;
-	top: 22px;
-	width: 161px;
-	height: 46px;
+	left: 18px;
+	top: 23px;
+	width: 153px;
+	height: 44px;
 	background: url(images/logoendframe.png) no-repeat;
 }
 
@@ -140,7 +140,7 @@ body{
 
 #mask-l{
 	position: absolute;
-	left: 222px;
+	left: 329px;
 	top: 24px;
 	width: 248px;
 	height: 42px;
