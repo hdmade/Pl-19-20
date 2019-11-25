@@ -25,10 +25,10 @@ body{
 
 #mask1{
 	position: absolute;
-	left: 26px;
+	left: 17px;
 	top: 90px;
-	width: 250px;
-	height: 73px;
+	width: 265px;
+	height: 78px;
 	overflow: hidden;
 }
 
@@ -75,8 +75,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 250px;
-	height: 73px;
+	width: 265px;
+	height: 78px;
 	background: url(images/tagline1.png) no-repeat;
 }
 
