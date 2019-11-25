@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>PL | 160x600</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=160, height=600">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      <div id="animation">
+
+<!-- Frame 1 -->
+        <div id="frame1bg"></div>
+        
+<!-- Frame 2 -->        
+
+        <!-- <div id="frame2bg"></div> -->
+        <div id="meteors"></div>
+
+        <div id="logolarge"></div>
+
+
+<!-- Frame 3 -->        
+        <div id="mask1">
+          <div id="tagline1"></div>
+        </div>
+        
+        <!-- <div id="mask2">
+          <div id="tagline2"></div>
+        </div> -->
+<!-- Endframe -->
+        <div id="bgendframe"></div>
+<!--         <div id="players"></div>
+ -->
+<!--        <div id="divider"></div> -->
+       <div id="logoendframe"></div>
+        
+        <div id="mask-l">
+          <div id="match1"></div>
+        </div>
+
+        <div id="mask-r">
+          <div id="match2"></div>
+        </div>
+
+        
+
+      </div>        
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $logolarge = $("#logolarge"),
+            
+            $mask1 = $("#mask1"),
+            $mask2 = $("#mask2"),
+
+            $meteors = $("#meteors"),
+
+            $tagline1 = $("#tagline1"),
+            $tagline2 = $("#tagline2"),
+
+            $frame1bg = $("#frame1bg"),
+            // $frame2bg = $("#frame2bg"),
+            
+            $bgendframe = $("#bgendframe"),
+            $bgendframe1 = $("#bgendframe1"),
+            $divider = $("#divider"),
+            $playerid = $("#playerid"),
+            $logoendframe = $("#logoendframe"),
+            
+            $match1 = $("#match1"),
+            $match2 = $("#match2"),
+            
+            $players = $("#players"),
+
+            
+            tl;
+
+        tl = new TimelineMax({repeat:1, repeatDelay:2});
+
+        tl.add("start")
+          .from($animation, 0.5, {autoAlpha:0}, "start+=0.5")
+          .from($logolarge, 1, {opacity:0}, "start+=0.5")
+          
+          // frame 2
+          .add("frame2", "+=0.5")
+          // .to($logolarge, 0.5, {opacity:0}, "frame2")
+          // .from($frame2bg, 0.5, {opacity:0}, "frame2")
+          
+          .from($tagline1, 0.5, {xPercent:100, ease: Power1.easeOut}, "frame2+=0.5")
+          .fromTo($meteors, 1.5, {top:-250, left:250}, {top:500, left:-500}, "frame2+=0.8")
+
+          // frame 3
+          // .add("frame3", "+=0.5")
+          // .to($tagline1, 0.5, {opacity:0, ease: Power1.easeOut}, "frame3")
+          // .from($tagline2, 0.5, {xPercent:100, ease: Power1.easeOut}, "frame3+=0.5")
+          // .fromTo($meteors, 1.5, {top:-250, left:250}, {top:500, left:-500}, "frame3+=1.0")
+
+          // endframe
+          .add("endframe", "+=0.5")
+          .to($tagline1, 0.5, {opacity:0, ease: Power1.easeOut}, "endframe")
+          .from($bgendframe, 0.5, {opacity:0}, "endframe")
+          .from($players, 0.5, {opacity:0}, "endframe")
+
+          .from($logoendframe, 0.5, {opacity:0}, "endframe+=0.5")
+          .from($divider, 0.5, {opacity:0}, "endframe+=1.0")
+
+          .from($match1, 0.5, {yPercent:-100, ease: Power2.easeOut}, "endframe+=1.0")
+          // .from($match2, 0.5, {xPercent:-100, ease: Power2.easeOut}, "endframe+=1.0")
+
+          // long animations
+          .fromTo($frame1bg, 7, {y:0, scale:1.3}, {y:-150, scale:1}, "start")
+
+        tl.totalDuration(15);
+
+
+    
+    });
+    </script>
+    
+
+</body>
+</html>
+
