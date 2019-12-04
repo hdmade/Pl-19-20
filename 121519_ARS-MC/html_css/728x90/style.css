@@ -25,17 +25,10 @@ body{
 
 #mask1{
 	position: absolute;
-<<<<<<< HEAD:121519_ARS-MC/html_css/728x90/style.css
 	left: 21px;
 	top: 31px;
 	width: 686px;
 	height: 27px;
-=======
-	left: 150px;
-	top: 30px;
-	width: 427px;
-	height: 32px;
->>>>>>> b97e5ccbecc26815acde79a96db2bb77a60a9db0:120719_MC-MU/html_css/728x90/style.css
 	overflow: hidden;
 }
 
@@ -82,13 +75,8 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-<<<<<<< HEAD:121519_ARS-MC/html_css/728x90/style.css
 	width: 686px;
 	height: 27px;
-=======
-	width: 427px;
-	height: 32px;
->>>>>>> b97e5ccbecc26815acde79a96db2bb77a60a9db0:120719_MC-MU/html_css/728x90/style.css
 	background: url(images/tagline1.png) no-repeat;
 }
 
