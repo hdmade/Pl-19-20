@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background-color: #37003c;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #37003c;
+	box-sizing: border-box;
+}
+
+#color_bar1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 10px;
+	background-color: #006cb7;
+}
+
+#color_bar2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 10px;
+	background-color: #b71f38;
+}
+
+#color_bar3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 10px;
+	background-color: #009d73;
+}
+
+#frame1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/frame1.gif) no-repeat;
+}
+
+#frame2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/frame2.gif) no-repeat;
+}
+
+#frame3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/frame3.jpg) no-repeat;
+}
+
+#frame3_lines{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/frame3_lines.jpg) no-repeat;
+}
+
+#mask1{
+	position: absolute;
+	left: 0px;
+	top: 120px;
+	width: 300px;
+	height: 10px;
+	overflow: hidden;
+}
+
+#mask2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	overflow: hidden;
+}
+
+#mask3{
+	position: absolute;
+	left: 55px;
+	top: 134px;
+	width: 191px;
+	height: 40px;
+	overflow: hidden;
+}
+
+#network{
+	position: absolute;
+	left: 71px;
+	top: 188px;
+	width: 158px;
+	height: 29px;
+	background: url(images/network.png) no-repeat center center;
+	background-size:contain;
+}
+
+#pl_logo{
+	position: absolute;
+	left: 73px;
+	top: 15px;
+	width: 155px;
+	height: 102px;
+	background: url(images/pl_logo.png) no-repeat;
+}
+
+#tunein {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 191px;
+	height: 40px;
+	background: url(images/tunein.png) no-repeat;
+}
+
+
