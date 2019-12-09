@@ -12,8 +12,8 @@ body{
 
 #banner {
 	position: absolute;
-	width: 300px;
-	height: 250px;
+	width: 160px;
+	height: 600px;
 	background-color: #37003c;
 	padding: 0px;
 	margin: 0px;
@@ -26,53 +26,53 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
+	width: 160px;
 	height: 10px;
-	background-color: #006cb7;
+	background-color: #b71f38;
 }
 
 #color_bar2{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
+	width: 160px;
 	height: 10px;
-	background-color: #b71f38;
+	background-color: #009d73;
 }
 
 #color_bar3{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
+	width: 160px;
 	height: 10px;
-	background-color: #009d73;
+	background-color: #006cb7;
 }
 
 #frame1{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/frame1.gif) no-repeat;
+	width: 1600px;
+	height: 600px;
+	background: url(images/frame1.png) no-repeat;
 }
 
 #frame2{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/frame2.gif) no-repeat;
+	width: 1600px;
+	height: 600px;
+	background: url(images/frame2.png) no-repeat;
 }
 
 #frame3{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 250px;
+	width: 1600px;
+	height: 600px;
 	background: url(images/frame3.jpg) no-repeat;
 }
 
@@ -80,16 +80,34 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 250px;
-	background: url(images/frame3_lines.jpg) no-repeat;
+	width: 1600px;
+	height: 600px;
+	background: url(images/frame3.jpg) no-repeat;
+}
+
+#line1{
+	position: absolute;
+	left: 9px;
+	top: 140px;
+	width: 143px;
+	height: 2px;
+	background: url(images/line.png) no-repeat;
+}
+
+#line2{
+	position: absolute;
+	left: 9px;
+	top: 235px;
+	width: 143px;
+	height: 2px;
+	background: url(images/line.png) no-repeat;
 }
 
 #mask1{
 	position: absolute;
 	left: 0px;
-	top: 120px;
-	width: 300px;
+	top: 290px;
+	width: 160px;
 	height: 10px;
 	overflow: hidden;
 }
@@ -98,46 +116,40 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 300px;
-	height: 250px;
-	overflow: hidden;
-}
-
-#mask3{
-	position: absolute;
-	left: 55px;
-	top: 69px;
-	width: 191px;
-	height: 40px;
+	width: 160px;
+	height: 600px;
 	overflow: hidden;
 }
 
 #network{
 	position: absolute;
-	left: 71px;
-	top: 115px;
-	width: 158px;
-	height: 29px;
+	left: 50%;
+	transform:translateX(-50%);
+	top: 218px;
+	width: 125px;
+	height: 56px;
 	background: url(images/network.png) no-repeat center center;
 	background-size:contain;
 }
 
 #pl_logo{
 	position: absolute;
-	left: 52px;
-	top: 16px;
-	width: 190px;
-	height: 41px;
-	background: url(images/pl_logo.png) no-repeat;
+	left: 6px;
+	top: 21px;
+	width: 147px;
+	height: 98px;
+	background: url(images/pl_logo.png) no-repeat center center;
+	background-size:contain;
 }
 
 #tunein {
 	position: absolute;
-	left: 0px;
-	top: 0px;
-	width: 191px;
-	height: 40px;
-	background: url(images/tunein.png) no-repeat;
+	left: 6px;
+	top: 146px;
+	width: 145px;
+	height: 75px;
+	background: url(images/tunein.png) no-repeat center center;
+	background-size:contain;
 }
 
 
