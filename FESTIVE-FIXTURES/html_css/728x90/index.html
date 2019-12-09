@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Premier League | 728x90</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta name="ad.size" content="width=728, height=90">
+    <script type="text/javascript">var clickTag = "https://www.google.com";</script>
+
+</head>
+<body>
+
+    <div id="banner" onclick="javascript:window.open(window.clickTag);">
+
+      <div id="animation">
+        <div id="frame3"></div>
+        <div id="frame3_lines"></div>
+        <div id="network"></div>
+        <div id="tunein"></div>
+        <div id="line2" class="lines"></div>
+        <div id="line1" class="lines"></div>
+        <div id="pl_logo"></div>
+        <div id="mask2">
+            <div id="frame2"></div> 
+        </div>
+        <div id="mask1">
+            <div id="frame1"></div>            
+            <div id="color_bar1"></div>
+            <div id="color_bar2"></div> 
+            <div id="color_bar3"></div>
+        </div>
+
+      </div>        
+
+    </div>
+
+    <!-- Load TweenMax here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>             
+    <script>
+    $(document).ready(function(){
+        var $animation = $("#animation"),
+
+            $color_bar1 = $("#color_bar1"),
+            $color_bar2 = $("#color_bar2"),
+            $color_bar3 = $("#color_bar3"),
+            $frame1 = $("#frame1"),
+            $frame2 = $("#frame2"),
+            $frame3 = $("#frame3"),
+            $frame3_lines = $("#frame3_lines"),
+            $lines = $(".lines"),
+            $line1 = $("#line1"),
+            $line2 = $("#line2"),
+            $mask1 = $("#mask1"),
+            $mask2 = $("#mask2"),
+            $network = $("#network"),
+            $pl_logo = $("#pl_logo"),
+            $tunein = $("#tunein"),
+            tl;
+
+        tl = new TimelineMax({repeat:2, repeatDelay:3});
+
+        tl.add("start")
+          .from($animation, 0.5, {autoAlpha:0})
+          
+          .add("frame1", "+=0.5")
+          .from($mask1, 0.4, {xPercent:-100, ease: Power3.easeOut}, "frame1")
+          .from($color_bar2, 0.4, {xPercent:-100, ease: Power3.easeOut}, "frame1+=0.2")
+          .from($color_bar3, 0.4, {xPercent:-100, ease: Power3.easeOut}, "frame1+=0.35")
+          .to($color_bar1, 0.01, {opacity:0}, "frame1+=0.75")
+          .to($color_bar2, 0.01, {opacity:0}, "frame1+=0.75")
+          .to($color_bar3, 0.01, {opacity:0}, "frame1+=0.75")
+          .to($mask1, 0.25, {height:90, y:-37, ease: Power3.easeOut}, "frame1+=0.75")
+          .from($frame1, 0.25, {y:-37, ease: Power3.easeOut}, "frame1+=0.75") 
+          .from($frame2, 0.01, {opacity:0})  
+
+          .add("frame2", "+=1.0")
+          .to($mask1, 0.3, {height:0, transformOrigin:"center top", ease: Power3.easeOut}, "frame2")
+          .from($frame3, 0.01, {opacity:0})          
+
+          .add("endframe", "+=1.25")
+          .to($mask2, 0.3, {height:0, transformOrigin:"center top", ease: Power3.easeOut}, "endframe")
+          .from($frame3_lines, 1.5, {opacity:0}, "endframe+=0.5")
+          .from($pl_logo, 0.3, {opacity:0}, "endframe+=0.5")
+          .from($lines, 0.01, {opacity:0}, "endframe+=1.25")
+          .from($line1, 0.3, {y:32.5, ease: Power2.easeOut}, "endframe+=1.25")
+          .from($line2, 0.3, {y:-32.5, ease: Power2.easeOut}, "endframe+=1.25")
+          .from($tunein, 0.15, {opacity:0}, "endframe+=1.25")
+          .from($network, 0.25, {opacity:0});
+
+    });
+    </script>
+    
+
+</body>
+</html>
+

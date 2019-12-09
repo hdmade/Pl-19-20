@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 728px;
+	height: 90px;
+	background-color: #37003c;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #37003c;
+	box-sizing: border-box;
+}
+
+#color_bar1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 10px;
+	background-color: #006cb7;
+}
+
+#color_bar2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 10px;
+	background-color: #b71f38;
+}
+
+#color_bar3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 10px;
+	background-color: #009d73;
+}
+
+#frame1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/frame1.png) no-repeat;
+}
+
+#frame2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/frame2.png) no-repeat;
+}
+
+#frame3{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/frame3.jpg) no-repeat;
+}
+
+#frame3_lines{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	background: url(images/frame3_lines.jpg) no-repeat;
+}
+
+#line1{
+	position: absolute;
+	left: 468px;
+	top: 12px;
+	width: 166px;
+	height: 2px;
+	background: url(images/line.png) no-repeat;
+}
+
+#line2{
+	position: absolute;
+	left: 468px;
+	top: 72px;
+	width: 166px;
+	height: 2px;
+	background: url(images/line.png) no-repeat;
+}
+
+#mask1{
+	position: absolute;
+	left: 0px;
+	top: 37px;
+	width: 728px;
+	height: 10px;
+	overflow: hidden;
+}
+
+#mask2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 728px;
+	height: 90px;
+	overflow: hidden;
+}
+
+#network{
+	position: absolute;
+	left: 555px;
+	top: 60px;
+	width: 110px;
+	height: 21px;
+	background: url(images/network.png) no-repeat;
+}
+
+#pl_logo{
+	position: absolute;
+	left: 13px;
+	top: 21px;
+	width: 221px;
+	height: 48px;
+	background: url(images/pl_logo.png) no-repeat;
+}
+
+#tunein {
+	position: absolute;
+	left: 509px;
+	top: 11px;
+	width: 198px;
+	height: 41px;
+	background: url(images/tunein.png) no-repeat;
+}
