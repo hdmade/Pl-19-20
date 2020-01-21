@@ -141,9 +141,9 @@ body{
 #mask-l{
 	position: absolute;
 	left: 133px;
-	top: 13px;
+	top: 11px;
 	width: 145px;
-	height: 65px;
+	height: 67px;
 	overflow: hidden;
 	/*background-color: red;*/
 }
@@ -153,7 +153,7 @@ body{
 	left: 0px;
 	top: 0px;
 	width: 145px;
-	height: 65px;
+	height: 67px;
 	background: url(images/match1.png) no-repeat;	
 }
 
@@ -161,9 +161,9 @@ body{
 #mask-r{
 	position: absolute;
 	left: 312px;
-	top: 13px;
+	top: 11px;
 	width: 151px;
-	height: 66px;
+	height: 67px;
 	overflow: hidden;
 /*	background-color: blue;
 */}
@@ -173,7 +173,7 @@ body{
 	left: 0px;
 	top: 0px;
 	width: 151px;
-	height: 66px;
+	height: 67px;
 	background: url(images/match2.png) no-repeat;	
 }
 
