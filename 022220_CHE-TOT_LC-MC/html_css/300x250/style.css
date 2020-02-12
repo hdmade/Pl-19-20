@@ -1,0 +1,187 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#333;
+	margin:0;
+}
+
+#animation{
+	visibility: hidden;
+}
+
+#banner {
+	position: absolute;
+	width: 300px;
+	height: 250px;
+	background-color: #00ff87;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	border: 1px solid #37003C;
+	box-sizing: border-box;
+}
+
+
+#mask1{
+	position: absolute;
+	left: 27px;
+	top: 79px;
+	width: 247px;
+	height: 93px;
+	overflow: hidden;
+}
+
+
+#mask2{
+	position: absolute;
+	left: 19px;
+	top: 90px;
+	width: 262px;
+	height: 72px;
+	overflow: hidden;
+}
+
+#logolarge{
+	position: absolute;
+	left: 36px;
+	top: 31px;
+	width: 228px;
+	height: 189px;
+	background: url(images/logolarge.png) no-repeat;
+}
+
+
+#logoendframe{
+	position: absolute;
+	left: 115px;
+	top: 13px;
+	width: 72px;
+	height: 60px;
+	background: url(images/logoendframe.png) no-repeat;
+}
+
+#meteors{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/meteors-large.png) no-repeat;
+}
+
+
+#tagline1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 247px;
+	height: 93px;
+	background: url(images/tagline1.png) no-repeat;
+}
+
+#tagline2{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 262px;
+	height: 72px;
+	background: url(images/tagline2.png) no-repeat;
+}
+
+
+#frame1bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 500px;
+	background: url(images/frame1bg-large.png) no-repeat;
+}
+
+
+#frame2bg{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 500px;
+	background: url(images/frame2bg-large.png) no-repeat;
+}
+
+#bgendframe{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/bg-endframe.png) no-repeat;
+}
+
+
+#divider{
+	position: absolute;
+	left: 10px;
+	top: 176px;
+	width: 280px;
+	height: 65px;
+	background: url(images/divider.png) no-repeat;	
+}
+
+#players{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 300px;
+	height: 250px;
+	background: url(images/players.png) no-repeat;	
+}
+
+
+#mask-l{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 150px;
+	height: 250px;
+	overflow: hidden;
+	/*background-color: red;*/
+}
+
+#match1{
+	position: absolute;
+	left: 18px;
+	top: 183px;
+	width: 119px;
+	height: 52px;
+	background: url(images/match1.png) no-repeat;	
+}
+
+
+#mask-r{
+	position: absolute;
+	left: 150px;
+	top: 0px;
+	width: 150px;
+	height: 250px;
+	overflow: hidden;
+	/*background-color: blue;*/
+}
+
+#match2{
+	position: absolute;
+	left: 12px;
+	top: 183px;
+	width: 116px;
+	height: 52px;
+	background: url(images/match2.png) no-repeat;	
+}
+
+
+
+
+
+
+
+
+
