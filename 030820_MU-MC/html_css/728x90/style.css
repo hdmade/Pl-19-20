@@ -25,9 +25,9 @@ body{
 
 #mask1{
 	position: absolute;
-	left: 29px;
+	left: 151px;
 	top: 29px;
-	width: 671px;
+	width: 427px;
 	height: 33px;
 	overflow: hidden;
 }
@@ -75,7 +75,7 @@ body{
 	position: absolute;
 	left: 0px;
 	top: 0px;
-	width: 671px;
+	width: 427px;
 	height: 33px;
 	background: url(images/tagline1.png) no-repeat;
 }
